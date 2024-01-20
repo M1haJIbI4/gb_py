@@ -11,3 +11,4 @@ data.head(20)
 data.loc[data['whoAmI'] == 'robot', 'robot' ] = '1'
 data.loc[data['whoAmI'] == 'human', 'human' ] = '1'
 data = data.fillna(0)
+print(data)
